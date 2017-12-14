@@ -24,7 +24,7 @@ from multiprocessing import cpu_count
 num_workers = cpu_count()
 
 use_metadata = True
-
+if_do_augment = False
 batch_size_cnn = 128
 batch_size_lstm = 512
 batch_size_eval = 128
